@@ -134,8 +134,8 @@ Social Media Cards
     align-items: center;
 
     border-radius: .2rem;
-    margin: 1rem ;
-    padding: 1rem;
+    margin:.5rem ;
+    padding: 1.5rem;
 }
 
 .fb {
@@ -354,21 +354,23 @@ SMALL
 LARGE
 **********/
 @media (min-width:800px) {
-
+    
     .wrapper{
         display: grid;
         justify-content: center;
+        align-items: center;
+        height: 100vh;
     }
 
     .mode {
         display: flex;
         margin-left: auto;
     }
-
+   
     .overall-media {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        gap: 1rem;
+        gap: .5rem;
     }
 
     .overview-cont {
